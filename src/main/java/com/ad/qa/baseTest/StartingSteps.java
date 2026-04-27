@@ -40,7 +40,7 @@ public class StartingSteps {
         }
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
-        driver.get(prop.getProperty("urlForm"));
+        driver.get(prop.getProperty("nayka"));
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
     }
