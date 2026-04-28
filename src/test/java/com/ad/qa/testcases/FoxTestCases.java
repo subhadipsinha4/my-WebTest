@@ -25,7 +25,8 @@ public class FoxTestCases extends StartingSteps {
     @Test
     public void nayakaHomePageTest(){
         NayakaHomePage homePage=new NayakaHomePage(driver);
-        homePage.clickOnProduct().getPageNameAndDetails().getAllProductNameOnCurrentPage();
-
+        homePage.clickOnProduct().getPageNameAndDetails().getAllProductNameOnCurrentPage()
+                .selectSortOption()
+                .checkProductShownAsPerSortedOrderOrNot();
     }
 }
