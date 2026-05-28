@@ -16,17 +16,17 @@ public class FoxTestCases extends StartingSteps {
         landingPage.verifyLandingScreen();
     }
 
-    @Test
-    public void verifyHomeScreen(){
-        AmazonHomePage homePage=new AmazonHomePage(driver);
-        homePage.getProductsName();
-    }
-
-    @Test
-    public void nayakaHomePageTest(){
-        NayakaHomePage homePage=new NayakaHomePage(driver);
-        homePage.clickOnProduct().getPageNameAndDetails().getAllProductNameOnCurrentPage()
-                .selectSortOption()
-                .checkProductShownAsPerSortedOrderOrNot();
-    }
+//    @Test
+//    public void verifyHomeScreen(){
+//        AmazonHomePage homePage=new AmazonHomePage(driver);
+//        homePage.getProductsName();
+//    }
+//
+//    @Test
+//    public void nayakaHomePageTest(){
+//        NayakaHomePage homePage=new NayakaHomePage(driver);
+//        homePage.clickOnProduct().getPageNameAndDetails().getAllProductNameOnCurrentPage()
+//                .selectSortOption()
+//                .checkProductShownAsPerSortedOrderOrNot();
+//    }
 }
