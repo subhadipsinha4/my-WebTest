@@ -46,11 +46,11 @@ public class StartingSteps {
     }
 
 
-//    @AfterMethod
-//    public void teardown() {
-//        if (driver != null) {
-//            driver.quit();
-//        }
-//    }
+    @AfterMethod
+    public void teardown() {
+        if (driver != null) {
+            driver.quit();
+        }
+    }
 
 }
