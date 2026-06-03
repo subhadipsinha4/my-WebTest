@@ -26,16 +26,4 @@ public class OnlineShopping extends StartingSteps {
         LandingScreen landingScreen=new LandingScreen(driver);
         landingScreen.verifyLandingScreen().goToRegister().registerUser();
     }
-
-    // Switch new window
-    // alert & popup
-    // table
-    // movseHovwer
-    //drag and drop
-    // frame
-    // following
-    // dynamic xpath
-    // Selenium Grid or cross browser testing or parallel execution
-    // type of exception (5)
-    // Why? PageFactory.initElements
 }
